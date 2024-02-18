@@ -767,9 +767,9 @@ letter-spacing: 0.48px;
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 734px;
-        padding-right: 15px;
-        padding-left: 15px;
+        width: 768px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
     .portfolio-list {
 
@@ -784,8 +784,8 @@ letter-spacing: 0.48px;
 @media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
     .portfolio {
         padding-top: 120px;
