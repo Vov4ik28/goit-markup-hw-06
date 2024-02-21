@@ -785,7 +785,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   }
   .team-container {
     max-width: 582px;
-    align-items: center;
+    
   }
   .team-list {
     display: flex;
@@ -824,6 +824,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 @media screen and (min-width: 1158px) {
   .container {
+    max-width: 100%;
     width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
@@ -853,7 +854,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   }
   .team-container {
     padding: 32px 0 32px 0;
-    align-items: center;
+    margin: 0 auto;
   }
   .about-icon-back {
     width: 264px;
