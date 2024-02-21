@@ -303,8 +303,11 @@ section {
   flex-wrap: wrap;
   gap: 72px;
 }
-.team-container {
+.team-section>.container {
   padding: 0 28px;
+}
+.team-container {
+  padding: 32px 0 32px 0;
   align-items: center;
 }
 .team-item {
