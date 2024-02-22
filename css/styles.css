@@ -58,7 +58,7 @@ section {
 
 /*Header*/
 .header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   width: 100%;
   background-color: #fff;
@@ -121,8 +121,8 @@ section {
 /* Hero section 1 */
 .hero {
   background-color: #2e2f42;
-  padding-bottom: 188px;
-  padding-top: 188px;
+  /* padding-bottom: 188px;
+  padding-top: 188px; */
   /* padding: 72px 34px; */
   /* padding-top: 72px;
   padding-bottom: 72px; */
@@ -137,9 +137,9 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+
   margin: auto;
-  max-width: 320px;
+  max-width: 318px;
   /* max-width: 1440px; */
 }
 .text-hero {
