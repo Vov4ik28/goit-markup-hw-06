@@ -120,7 +120,7 @@ section {
 
 /* MOB_MENU_HEADER */
 .mob-menu {
-  width: 320px;
+  /* width: 320px; */
   height: 100%;
   position: fixed;
   top: 0;
@@ -130,6 +130,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  opacity: 0;
+  pointer-events: none;
 }
 .mob-close-btn {
   display: block;
@@ -147,6 +149,8 @@ section {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
+  visibility: hidden;
+  overflow: auto;
 }
 .overlay-close-icon {
 }
