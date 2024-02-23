@@ -973,8 +973,8 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/tablet/dark-bg-mobile.jpg);
-      padding-top: 188px;
-      padding-bottom: 188px;
+      padding-top: 112px;
+      padding-bottom: 112px;
   }
   .text-hero {
     font-size: 56px;
