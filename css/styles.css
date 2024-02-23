@@ -131,9 +131,9 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  z-index: 999;
   opacity: 0;
   pointer-events: none;
-
   visibility: hidden;
 }
 .mob-menu-box {
@@ -148,7 +148,6 @@ section {
   position: absolute;
   display: block;
   margin-left: auto;
-  margin-bottom: 32px;
   top: 24px;
   right: 24px;
   width: 24px;
