@@ -120,11 +120,12 @@ section {
 
 /* MOB_MENU_HEADER */
 .mob-menu {
-  /* width: 320px; */
+  position: relative;
+  width: 100vw;
   height: 100%;
   position: fixed;
   top: 0;
-  left: 0;
+  /* left: 0; */
   background-color: #ffffff;
   padding: 20px;
   display: flex;
@@ -132,8 +133,14 @@ section {
   justify-content: space-between;
   opacity: 0;
   pointer-events: none;
+  overflow: auto;
+  padding: 0;
+  cursor: pointer;
+  visibility: hidden;
+  padding: 72px 24px 40px 16px;
 }
 .mob-close-btn {
+  position: absolute;
   display: block;
   margin-left: auto;
   margin-bottom: 32px;
@@ -147,10 +154,8 @@ section {
   justify-content: center;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  padding: 0;
-  cursor: pointer;
-  visibility: hidden;
-  overflow: auto;
+
+
 }
 .overlay-close-icon {
 }
@@ -857,6 +862,9 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
     width: 768px;
     padding-right: 16px;
     padding-left: 16px;
+  }
+  .mob-menu {
+    display: none;
   }
   /* HEADER */
   .header {
