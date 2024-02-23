@@ -123,14 +123,13 @@ section {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  position: fixed;
   top: 0;
   left: 0;
   background-color: #ffffff;
   /* padding: 20px; */
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  /* flex-direction: column; */
+  justify-content: center;
   z-index: 999;
   opacity: 0;
   pointer-events: none;
