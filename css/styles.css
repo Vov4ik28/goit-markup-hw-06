@@ -166,11 +166,14 @@ section {
 .mob-navigation {
 }
 .mob-menu-list {
-  margin-bottom: 168px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
 }
-.mob-menu-item:not(:last-child) {
+/* .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
-}
+} */
 .mob-menu-link {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
@@ -190,8 +193,8 @@ section {
   flex-direction: column;
   gap: 24px;
 }
-.mob-adress-item {
-}
+/* .mob-adress-item {
+} */
 .mob-adress-text {
   color: #434455;
   font-size: 20px;
